@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cheat_Sheet</title>
+  </head>
+  <body>
+    <h1>Questions + Answers for HTML</h1>
+      <section>
+        <h3>Name the components of html elements properly</h2>
+          <em>
+            Start_tag, content, End_tag
+          </em>
+        <h3>Void elements</h3>
+          <em>
+            Void elements: elements with no content
+            <br>
+            Example: br/
+          </em>
+        <h3>Attributes</h3>
+          <em>
+            All HTML elements can have attributes.
+            Attributes provide additional information about an element.
+            They're always specified in the start tag.
+            They usually come in name/value pairs: name="value"
+            < a href = "http://bsp.com"> This is a link
+          </em>
+        <h3>DOCTYPE</h3>
+          <em>
+            &lt; !DOCTYPE html &gt;
+          </em>
+        <h3>Elements</h3>
+          <em>
+            meta info in head: &lt;meta charset="UTF-8"&gt;
+            &lt;link rel="stylesheet" href="CheatSheet2.css"&gt;
+            Comment: &lt;!-- This would be a comment --&gt;
+            Title: title in a browser tab
+          </em>
+        <h1>CSS rule</h1>
+        <h3>selector - declaration</h3>
+          <em>
+            h1 {property:value; property:value;}
+          </em>
+        <h3>Combinators</h3>
+          <em>
+            descendant selector (space), The descendant selector matches all elements that are descendants of a specified element. <br>
+            child selector (>), the child selector selects all elements that are the immediate children of a specified element <br>
+            adjacent sibling selector (+), The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element. <br>
+            general sibling selector (~), The general sibling selector selects all elements that are siblings of a specified element. <br>
+          </em>
+      </section>
+    <h1>CSS Colors</h3>
+      <section>
+        <h4>Color names:</h4>
+          <ul>
+            <li>Tomato</li>
+            <li>Orange</li>
+            <li>DodgerBlue</li>
+            <li>Gray</li>
+          </ul>
+          <em>
+            HTML supports 140 color names!<br>
+            Example background: &lt;h1 style="background-color:DodgerBlue;">Hello World&lt;/h1 &gt;<br>
+            Example text: &lt;h1 style="color:DodgerBlue;">Hello World&lt;/h1 &gt;<br>
+          </em>
+        <h3>HEX Value: #rrggbb</h3>
+          <em>
+            -red: #ff0000<br>
+            Red is set to its highest value, the others at the lowest value (00)<br>
+            -black: #000000<br>
+            -white:#ffffff<br>
+          </em>
+      </section>
+      <section>
+        <h1>Backgrounds</h1>
+          <em>
+            <strong>Background color of an element</strong> -background-color:lightblue;<br>
+            <strong>Background-Image of an element</strong> -background-image: url("paper.gif");<br>
+            <strong>Background-Image Repeat Horizontally/Vertically:</strong> -background-image, then -> background-repeat: repeat-x; ->x for horizontal, y for vertical
+            background-repeat,<br>
+            <strong>Fixed position of background image -background-image:</strong> -background-position: right top; background-attachment:fixed;<br>
+          </em>
+          <br>
+      </section>
+    <section>
+      <table class="center">
+        <thead>
+          <tr><th colspan= "4"> Text</th></tr>
+          <tr><th>color: blue;</th><th>text-align:center;</th><th>text-decoration:</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td><td>It can be left/right/center/justify/</td><td>text-decoration: none, to remove underlined links</td>
+        </tr>
+          <tr>
+            <td>color: #ff0000</td><td></td><td>text-decoration: overline; line-through; underline;</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <em>p.uppercase/lowercase/capitalize {</em> <br>
+      <em><strong>text-transform:</strong> uppercase/ lowercase/ capitalize;}</em>
+    </section>
+    <section>
+      <h3>Fonts</h3>
+        <em>
+          erif: fonts have small lines at the ends on some characters
+          sans-serif: sans=without, no lines
+        </em>
+        <p>
+          <strong>font-family:</strong> should hold some font names as an option if the browser doesn't support the 1st font
+        </p>
+        <em>
+          Example:<br>
+          p{<br>
+          font-family: "Times New Roman", Times, serif;<br>
+        }<br>
+        </em>
+      <h3>Font Style:</h3>
+        <em>
+          p.normal/italic{<br>
+          font-style: normal/italic;<br>
+        </em>
+      <h3>Font Size</h3>
+        <em>-absolute size:</em>
+        <ul>
+          <li> sets the text to a specified size </li>
+          <li>user can't change the text size</li>
+          <li>useful when the size of the output is known</li>
+        </ul>
+      <h3>font-size: small;</h3>
+        <em>
+          -relative size:
+        </em>
+        <ul>
+          <li>size set relative to surrounding elements</li>
+          <li>user can change the text size</li>
+        </ul>
+      <h3>font-size: smaller;</h3>
+        <h4>Font Weight</h4>
+          <em>
+            p.normal/thick {<br>
+            font-weight: normal/bold;<br>
+          }
+          </em>
+    </section>
+  </body>
+</html>
